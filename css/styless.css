@@ -161,3 +161,24 @@ line-height: 1,71;
 letter-spacing: 0.03em;
 color: #FFFFFF;
 }
+/* portfolio */
+.content :hover,
+.content :focus{
+    color:  #2196f3;
+    cursor: pointer;
+}
+
+.content-btn{
+font-weight: 500;
+font-size: 16px;
+line-height: 1,62;
+letter-spacing: 0.03em;
+color: #1c8135;
+}
+.icon-text{
+ font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;
+}
