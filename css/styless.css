@@ -17,10 +17,11 @@
 
 .body{
     font-family: 'Roboto', sans-serif;
+    color: #212121;
 
 }
 .header-logo{
-    font-family: 'Raleway';
+font-family: 'Raleway';
    font-style: normal;
    font-weight: 700;
    font-size: 26px;
@@ -86,6 +87,7 @@ color: #FFFFFF;
 
 }
 .subject-btn{
+font-family: 'Roboto';
 font-weight: 700;
 font-size: 16px;
 line-height: 1,88;
@@ -102,7 +104,6 @@ text-transform: uppercase;
 color: #212121;
 }
 .hero-text{
-font-weight: 400;
 font-size: 14px;
 line-height: 1,71;
 letter-spacing: 0.03em;
@@ -124,7 +125,6 @@ letter-spacing: 0.03em;
 color: #212121;
 }
 .hero-subtitle-text{
-font-weight: 400;
 font-size: 16px;
 line-height: 1,19px;
 letter-spacing: 0.03em;
@@ -135,11 +135,10 @@ color: #757575;
 }
 .footer-link-tel,
 .footer-link-mail{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1,71;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+font-size: 14px;
+line-height: 1,71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
 }
 .footer-list :focus,
 .footer-list :hover{
@@ -148,37 +147,41 @@ color: #757575;
     
 }
 .footer-link-addres{
- font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-letter-spacing: 0.03em;
-color: #FFFFFF;
-}
-.footer-link-addres{
-font-weight: 400;
 font-size: 14px;
 line-height: 1,71;
 letter-spacing: 0.03em;
 color: #FFFFFF;
 }
+
                                   /* portfolio */
 .content :hover,
 .content :focus{
     color:  #2196f3;
     cursor: pointer;
 }
-
+.icon {
+    list-style: none;
+    text-decoration: none;
+}
 .content-btn{
-font-weight: 500;
-font-size: 16px;
-line-height: 1,62;
-letter-spacing: 0.03em;
-color: #1c8135;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,63;
+    letter-spacing: 0.03em;
+    color: #212121;
+    
 }
 .icon-text{
- font-weight: 700;
+font-weight: 700;
 font-size: 18px;
-line-height: 36px;
+line-height: 2;
 letter-spacing: 0.06em;
 color: #212121;
+}
+.icon-text-list{
+font-size: 16px;
+line-height: 1,88;
+letter-spacing: 0.03em;
+color: #757575;
 }
