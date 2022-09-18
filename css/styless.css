@@ -1,7 +1,8 @@
-/* :root{
+
+:root{
     --main-text-color: #212121;
     --secondary-text-color: #ffffff;
-    -- ouwer-text-color: #757575;
+    --ouwer-text-color: #757575;
     --acent-color: #2196f3;
     --contener-color: #eeeeee;
     --logo-color-text: #000000;
@@ -13,11 +14,12 @@
     --background-color: #FFFFFF;
     --icon-color: #afb1b8;
     --main-color: roboto, sans-serif;
-} */
+
+}
 
 .body{
     font-family: 'Roboto', sans-serif;
-    color: #212121;
+    color: var(--main-text-color)
 
 }
 .header-logo{
@@ -27,7 +29,7 @@ font-family: 'Raleway';
    font-size: 26px;
    line-height: 1,19;
    letter-spacing: 0.03em;
-   color: #2196F3;
+   color: var(--acent-color);
    }
    .header-logo-color{
     font-family: 'Raleway';
@@ -42,7 +44,7 @@ l   etter-spacing: 0.03em;
 
 .header-list :hover,
 .header-list :focus{
-     color:  #2196f3;
+     color: var(--acent-color);
      cursor: pointer;
 }
 .header-link{
@@ -50,7 +52,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1,14;
 letter-spacing: 0.02em;
-color: #212121;
+color: var(--main-text-color);
 
 }
 .header-mail{
@@ -58,14 +60,14 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1,14;
 letter-spacing: 0.02em;
-color: #757575;
+color: var(--ouwer-text-color);
 }
 .header-tel{
 font-weight: 500;
 font-size: 14px;
 line-height: 1,14;
 letter-spacing: 0.02em;
-color: #757575;
+color: var(--ouwer-text-color);
 }
 
 .list{
@@ -77,13 +79,13 @@ color: #757575;
 }
 
 .subject{
-    background: #2F303A;
+    background: var(--background-footer-color)
 }
 .subject-text{
 font-weight: 900;
 font-size: 44px;
 line-height: 1,36;
-color: #FFFFFF;
+color: var(--secondary-text-color);
 
 }
 .subject-btn{
@@ -91,8 +93,8 @@ font-family: 'Roboto';
 font-weight: 700;
 font-size: 16px;
 line-height: 1,88;
-color: #FFFFFF;
-background-color:#2196F3; 
+color: var(--secondary-text-color);
+background-color: var(--acent-color); 
 cursor: pointer;
 
 }
@@ -102,13 +104,13 @@ font-size: 14px;
 line-height: 1,14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #212121;
+color: var(--main-text-color);
 }
 .hero-text{
 font-size: 14px;
 line-height: 1,71;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--ouwer-text-color);
 }
 
 .hero-desk{
@@ -116,34 +118,34 @@ font-weight: 700;
 font-size: 36px;
 line-height: 1,16;
 letter-spacing: 0.03em;
-color: #212121;
+color: var(--main-text-color);
 }
 .hero-subtitle{
 font-weight: 500;
 font-size: 16px;
 line-height: 1,19;
 letter-spacing: 0.03em;
-color: #212121;
+color: var(--main-text-color);
 }
 .hero-subtitle-text{
 font-size: 16px;
 line-height: 1,19px;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--ouwer-text-color);
 }
 .footer{
-    background-color:  #2F303A;;
+    background-color:  var(--background-footer-color);
 }
 .footer-link-tel,
 .footer-link-mail{
 font-size: 14px;
 line-height: 1,71;
 letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+color: var(--footer-text-color);
 }
 .footer-list :focus,
 .footer-list :hover{
-    color:  #2196f3;
+    color:  var(--acent-color);
     cursor: pointer;
     
 }
@@ -151,13 +153,13 @@ color: rgba(255, 255, 255, 0.6);
 font-size: 14px;
 line-height: 1,71;
 letter-spacing: 0.03em;
-color: #FFFFFF;
+color: var(--secondary-text-color);
 }
 
                                   /* portfolio */
 .content :hover,
 .content :focus{
-    color:  #2196f3;
+    color: var(--acent-color);
     cursor: pointer;
 }
 .icon {
@@ -170,7 +172,7 @@ color: #FFFFFF;
     font-size: 16px;
     line-height: 1,63;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--main-text-color);
     
 }
 .icon-text{
@@ -178,11 +180,11 @@ font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
-color: #212121;
+color: var(--main-text-color);
 }
 .icon-text-list{
 font-size: 16px;
 line-height: 1,88;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--ouwer-text-color);
 }
