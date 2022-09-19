@@ -10,7 +10,7 @@
     --footer-text-color: #rgba(255, 255, 255, 0.6);
     --background-footer-color: #2f303a;
     --background-section: #e5e5e5;
-    --line-color: #ececec
+    --line-color: #ececec;
     --background-color: #FFFFFF;
     --icon-color: #afb1b8;
     --main-color: roboto, sans-serif;
@@ -19,7 +19,10 @@
 
 .body{
     font-family: 'Roboto', sans-serif;
-    color: var(--main-text-color)
+    color: var(--main-text-color);
+    background-color: var(--background-color);
+    font-size: 14px;
+    letter-spacing: 0.03em;
 
 }
 .header-logo{
@@ -27,7 +30,7 @@ font-family: 'Raleway';
    font-style: normal;
    font-weight: 700;
    font-size: 26px;
-   line-height: 1,19;
+   line-height: 1.19;
    letter-spacing: 0.03em;
    color: var(--acent-color);
    }
@@ -36,7 +39,7 @@ font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,19;
+    line-height: 1.19;
 l   etter-spacing: 0.03em;
     color: #000000;
 
@@ -47,25 +50,32 @@ l   etter-spacing: 0.03em;
      color: var(--acent-color);
      cursor: pointer;
 }
+.current{
+    color: var(--acent-color);
+}
 .header-link{
 font-weight: 500;
 font-size: 14px;
-line-height: 1,14;
+line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--main-text-color);
-
 }
+
+.current{
+    color: var(--acent-color);
+}
+
 .header-mail{
 font-weight: 500;
 font-size: 14px;
-line-height: 1,14;
+line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--ouwer-text-color);
 }
 .header-tel{
 font-weight: 500;
 font-size: 14px;
-line-height: 1,14;
+line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--ouwer-text-color);
 }
@@ -96,65 +106,91 @@ color: var(--ouwer-text-color);
 .subject-text{
 font-weight: 900;
 font-size: 44px;
-line-height: 1,36;
+line-height: 1.36;
 color: var(--secondary-text-color);
 
 }
+.btn :hover,
+.btn :focus{
+    background: #2196F3;
+    color: #2196f3;
+}
+
 .subject-btn{
 font-family: 'Roboto';
 font-weight: 700;
 font-size: 16px;
-line-height: 1,88;
+line-height: 1.88;
+letter-spacing: 0.06em;
 color: var(--secondary-text-color);
 background-color: var(--acent-color); 
 cursor: pointer;
+text-transform: uppercase;
 
 }
+
 .hero-top{
 font-weight: 700;
 font-size: 14px;
-line-height: 1,14;
+line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--main-text-color);
 }
 .hero-text{
 font-size: 14px;
-line-height: 1,71;
+line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--ouwer-text-color);
 }
-
+.hero{
+    background: #F5F5F5;
+}
 .hero-desk{
 font-weight: 700;
 font-size: 36px;
-line-height: 1,16;
+line-height: 1.16;
 letter-spacing: 0.03em;
 color: var(--main-text-color);
+
 }
 .hero-subtitle{
 font-weight: 500;
 font-size: 16px;
-line-height: 1,19;
+line-height: 1.19;
 letter-spacing: 0.03em;
 color: var(--main-text-color);
 }
 .hero-subtitle-text{
 font-size: 16px;
-line-height: 1,19px;
+line-height: 1.19px;
 letter-spacing: 0.03em;
 color: var(--ouwer-text-color);
 }
 .footer{
     background-color:  var(--background-footer-color);
+
 }
+.footer-logo-color{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+ letter-spacing: 0.03em;
+color:var(--secondary-text-color) ;
+
+}
+
 .footer-link-tel,
 .footer-link-mail{
+    font-style: normal;
 font-size: 14px;
-line-height: 1,71;
+line-height: 1.71;
 letter-spacing: 0.03em;
-color: var(--footer-text-color);
+color: rgba(255, 255, 255, 0.6);
 }
+
 .footer-list :focus,
 .footer-list :hover{
     color:  var(--acent-color);
@@ -164,9 +200,9 @@ color: var(--footer-text-color);
 .footer-link-addres{
 font-style: normal;
 font-size: 14px;
-line-height: 1,71;
+line-height: 1.71;
 letter-spacing: 0.03em;
-color: var(--secondary-text-color);
+color: rgba(255, 255, 255, 0.6);
 }
 
                                   /* portfolio */
@@ -179,15 +215,19 @@ color: var(--secondary-text-color);
     list-style: none;
     text-decoration: none;
 }
-.content-btn{
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1,63;
-    letter-spacing: 0.03em;
-    color: var(--main-text-color);
-    
+
+.content-btn-item{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+letter-spacing: 0.03em;
+color: #212121;
+border-radius: 4px;
+
 }
+
 .icon-text{
 font-weight: 700;
 font-size: 18px;
@@ -197,7 +237,7 @@ color: var(--main-text-color);
 }
 .icon-text-list{
 font-size: 16px;
-line-height: 1,88;
+line-height: 1.88;
 letter-spacing: 0.03em;
 color: var(--ouwer-text-color);
 }
