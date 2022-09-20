@@ -17,7 +17,7 @@
 
 }
 
-.body{
+body{
     font-family: 'Roboto', sans-serif;
     color: var(--main-text-color);
     background-color: var(--background-color);
@@ -107,6 +107,7 @@ color: var(--ouwer-text-color);
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
+letter-spacing: 0.06em;
 color: var(--secondary-text-color);
 
 }
@@ -129,7 +130,7 @@ text-transform: uppercase;
 
 }
 
-.hero-top{
+.teem-top{
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
@@ -137,16 +138,16 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--main-text-color);
 }
-.hero-text{
+.teem-text{
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--ouwer-text-color);
 }
-.hero{
-    background: #F5F5F5;
+.teem{
+    background: #F5F4FA;
 }
-.hero-desk{
+.teem-desk{
 font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
@@ -154,16 +155,16 @@ letter-spacing: 0.03em;
 color: var(--main-text-color);
 
 }
-.hero-subtitle{
+.teem-subtitle{
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 color: var(--main-text-color);
 }
-.hero-subtitle-text{
+.teem-subtitle-text{
 font-size: 16px;
-line-height: 1.19px;
+line-height: 1.19;
 letter-spacing: 0.03em;
 color: var(--ouwer-text-color);
 }
@@ -193,10 +194,11 @@ color: rgba(255, 255, 255, 0.6);
 
 .footer-list :focus,
 .footer-list :hover{
-    color:  var(--acent-color);
+    color:  var(--secondary-text-color);
     cursor: pointer;
     
 }
+
 .footer-link-addres{
 font-style: normal;
 font-size: 14px;
@@ -206,6 +208,19 @@ color: rgba(255, 255, 255, 0.6);
 }
 
                                   /* portfolio */
+ 
+ .content-btn-item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+    color: #212121;
+    border-radius: 4px;
+    
+}
+
 .content :hover,
 .content :focus{
     color: var(--acent-color);
@@ -214,18 +229,6 @@ color: rgba(255, 255, 255, 0.6);
 .icon {
     list-style: none;
     text-decoration: none;
-}
-
-.content-btn-item{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.63;
-letter-spacing: 0.03em;
-color: #212121;
-border-radius: 4px;
-
 }
 
 .icon-text{
